@@ -1,0 +1,24 @@
+
+body{
+    margin: 0;
+}
+
+.Container {
+    height : 100vh;
+    display: grid;
+    grid-template-rows: 40px 50px 1fr;
+    line-height: 1.3em;
+    background-image: url('../Picture/background.jpeg');
+    background-size: 100%;
+    .Trello_Bar{
+        padding-left: 10px;
+        padding-top: 10px;
+        color:white;
+    }
+    .Board_Header{
+        padding-left: 10px;
+        padding-top: 10px;
+        color:white;
+    }
+
+}
